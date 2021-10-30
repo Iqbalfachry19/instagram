@@ -4,6 +4,10 @@ import Header from "../../components/Header";
 function signIn({ providers }) {
   return (
     <>
+      <Head>
+        <title>Instagram</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Header />
       <div className="flex flex-col items-center justify-center min-h-screen py-2 -mt-20 px-14 text-center">
         <img className="w-80" src="https://links.papareact.com/ocw" alt="" />
